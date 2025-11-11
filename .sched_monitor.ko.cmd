@@ -1,0 +1,1 @@
+savedcmd_/home/user/Desktop/kernel_sched/sched_monitor.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/user/Desktop/kernel_sched/sched_monitor.ko /home/user/Desktop/kernel_sched/sched_monitor.o /home/user/Desktop/kernel_sched/sched_monitor.mod.o

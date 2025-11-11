@@ -1,0 +1,1 @@
+savedcmd_/home/user/Desktop/kernel_sched/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/user/Desktop/kernel_sched/Module.symvers -T /home/user/Desktop/kernel_sched/modules.order -i Module.symvers -e 
