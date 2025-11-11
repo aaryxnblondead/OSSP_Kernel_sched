@@ -54,14 +54,14 @@ Your complete experiment plan includes:
 
 ## 🎯 NEXT: RUN YOUR EXPERIMENT! (10 Minutes)
 
-### **Option A: Automated Run (Easiest - Recommended for First Time)**
+OPTION 2 - FULL AUTOMATED EXPERIMENT (Recommended for First Time)**
 
 ```bash
 # Run the complete experiment automatically
 ./run_experiment.sh
 
-# When done, analyze results
-./analyze_results.sh
+# When done, analyze results and generate visualizations
+./analyze_results.sh results/
 ```
 
 **What it does:**
@@ -72,7 +72,12 @@ Your complete experiment plan includes:
 5. Unloads module
 6. Saves data to `results/experiment_YYYYMMDD_HHMMSS/`
 
-**Time required**: ~2-3 minutes
+**Analysis generates:**
+- Text report with statistics
+- **Gantt chart visualization** (PNG)
+- **Comparison chart** showing metrics across workloads
+
+**Time required**: ~3-4 minutes total
 
 ---
 
@@ -150,6 +155,24 @@ PID      Command              TotalCS   VoluntaryCS   InvoluntCS   Runtime(ms)
 12346    test_cpu            7,123      98            7,025        27,800
 ...
 ```
+
+### **Visualization Charts Generated:**
+
+After running `./analyze_results.sh results/`, you'll get:
+
+1. **Gantt Chart** (`gantt_chart_TIMESTAMP.png`):
+   - Timeline showing when each test process ran
+   - Color-coded by workload type (CPU/IO/Mixed)
+   - Shows context switches and runtime for each process
+   
+2. **Comparison Chart** (`comparison_chart_TIMESTAMP.png`):
+   - Bar graphs comparing the three workload types
+   - Total context switches comparison
+   - Involuntary vs voluntary CS breakdown
+   - Average runtime per workload
+   - Involuntary CS ratio (CPU-bound = high, I/O-bound = low)
+
+**See `VISUALIZATION_GUIDE.md` for detailed interpretation!**
 
 ### **Key Metrics to Analyze:**
 

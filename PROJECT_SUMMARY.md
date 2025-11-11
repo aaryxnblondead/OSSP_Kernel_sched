@@ -6,7 +6,6 @@ Your workspace now contains a **complete, production-ready experiment** for stud
 
 ## 📁 Project Structure
 
-```
 /home/user/Desktop/kernel_sched/
 │
 ├── 📘 Documentation (Planning & Guides)

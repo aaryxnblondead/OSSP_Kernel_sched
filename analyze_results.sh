@@ -184,6 +184,43 @@ echo "Generating detailed report: $REPORT"
 
 echo -e "${GREEN}Report saved to: $REPORT${NC}"
 echo ""
+
+# Generate visualizations
+echo -e "${BLUE}========================================${NC}"
+echo -e "${BLUE}Generating Visualizations${NC}"
+echo -e "${BLUE}========================================${NC}"
+echo ""
+
+if command -v python3 &> /dev/null; then
+    SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    VISUALIZE_SCRIPT="$SCRIPT_DIR/visualize_results.py"
+    
+    if [ -f "$VISUALIZE_SCRIPT" ]; then
+        echo "Creating Gantt charts and comparison graphs..."
+        python3 "$VISUALIZE_SCRIPT" "$RESULTS_DIR" --save --format png
+        
+        if [ $? -eq 0 ]; then
+            echo ""
+            echo -e "${GREEN}✓ Visualizations generated successfully!${NC}"
+            echo ""
+            echo "Generated files:"
+            ls -lh "$RESULTS_DIR"/gantt_chart_*.png 2>/dev/null | awk '{print "  - " $9 " (" $5 ")"}'
+            ls -lh "$RESULTS_DIR"/comparison_chart_*.png 2>/dev/null | awk '{print "  - " $9 " (" $5 ")"}'
+        else
+            echo -e "${YELLOW}Warning: Could not generate visualizations${NC}"
+        fi
+    else
+        echo -e "${YELLOW}Warning: visualize_results.py not found${NC}"
+    fi
+else
+    echo -e "${YELLOW}Warning: python3 not found, skipping visualizations${NC}"
+fi
+
+echo ""
 echo "To view detailed per-process statistics, examine:"
 echo "  $RESULTS_DIR/*_${LATEST}.txt"
+echo ""
+echo "To view visualizations, open:"
+echo "  $RESULTS_DIR/gantt_chart_${LATEST}.png"
+echo "  $RESULTS_DIR/comparison_chart_${LATEST}.png"
 echo ""
