@@ -1,0 +1,288 @@
+=== CPU Scheduler Monitoring Statistics ===
+
+Monitoring Duration: 29 seconds
+Sampling Interval: 500 ms
+Total Samples Taken: 56
+Total Processes Tracked: 272
+Total Context Switches: 28938
+Context Switches per Second: 997
+
+PID      Command              TotalCS      VoluntaryCS  InvoluntCS   Runtime(ms)  Priority Nice    
+---------------------------------------------------------------------------------------------------------------------------
+2118     code                 2400         159054       159611       28504        120      0       
+10247    kworker/1:0          0            177          3            28504        120      0       
+10014    Isolated Web Co      15           2364         331          28504        120      0       
+55       scsi_eh_0            0            38           14           28504        120      0       
+432      systemd-oomd         115          10591        462          28504        120      0       
+1419     evolution-addre      0            182          62           28504        120      0       
+10679    kworker/u4:1         40           300          64           28504        120      0       
+1330     gnome-shell          2557         358205       161076       28504        120      0       
+1474     gsd-color            1            165          48           28504        120      0       
+254      systemd-udevd        2            374          254          28504        120      0       
+21       cpuhp/1              0            14           1            28504        120      0       
+1385     goa-daemon           0            217          129          28504        120      0       
+1639     snapd-desktop-i      0            39           38           28504        120      0       
+42       kworker/R-tpm_d      0            2            0            28504        100      -20     
+707      dbus                 0            2            12           28504        120      0       
+10810    sleep                0            1            2            505          120      0       
+9035     Utility Process      2            388          227          28504        120      0       
+63       kworker/R-mld        0            2            0            28504        100      -20     
+584      networkd-dispat      0            164          150          28504        120      0       
+1482     gsd-media-keys       0            363          156          28504        120      0       
+29       kauditd              0            49           12           28504        120      0       
+10653    eog                  9            675          176          28504        120      0       
+1215     fusermount3          0            1            7            28504        120      0       
+605      switcheroo-cont      0            12           18           28504        120      0       
+10331    Web Content          2            161          62           28504        120      0       
+139      kworker/R-scsi_      0            2            0            28504        100      -20     
+2024     chrome_crashpad      0            16           2            28504        120      0       
+1181     pipewire             0            362          42           28504        109      -11     
+571      cron                 0            55           7            28504        120      0       
+1469     sh                   0            3            5            28504        120      0       
+16       ksoftirqd/0          1822         45144        715          28504        120      0       
+1380     gvfs-udisks2-vo      0            115          89           28504        120      0       
+9043     Isolated Web Co      88           4575         2928         28504        120      0       
+2189     code                 16           5605         12798        28504        120      0       
+1202     xdg-document-po      0            444          44           28504        120      0       
+10928    sh                   0            2            5            503          120      0       
+4540     bash                 0            16           13           28504        120      0       
+1490     gsd-screensaver      0            47           13           28504        120      0       
+4451     pet                  0            71           12           28504        120      0       
+1634     ibus-engine-sim      0            508          50           28504        120      0       
+37       khugepaged           0            2            1            28504        139      19      
+9763     Isolated Web Co      13           2905         150          28504        120      0       
+236      irq/18-vmwgfx        0            2            0            28504        49       0       
+3        pool_workqueue_      0            3            0            28504        120      0       
+58       kworker/R-scsi_      0            2            0            28504        100      -20     
+24       ksoftirqd/1          198          44972        1082         28504        120      0       
+1532     ibus-memconf         0            13           26           28504        120      0       
+10470    kworker/0:0H         0            1443         240          28504        100      -20     
+10847    sh                   0            2            0            505          120      0       
+45       kworker/R-md_bi      0            2            0            28504        100      -20     
+10902    sh                   0            1            3            504          120      0       
+1697     tracker-miner-f      1            4979         331          28504        139      19      
+66       kworker/1:1H         0            6390         836          28504        100      -20     
+1862     gvfsd-metadata       0            29           7            28504        120      0       
+1629     snap-store           0            3929         633          28504        120      0       
+32       oom_reaper           0            2            0            28504        120      0       
+1396     evolution-calen      0            318          123          28504        120      0       
+4967     bash                 0            992          767          28504        120      0       
+10512    code                 251          2988         659          28504        120      0       
+697      dbus                 0            4            15           28504        120      0       
+87       kworker/R-charg      0            2            0            28504        100      -20     
+10190    kworker/0:3          198          4141         34           28504        120      0       
+1828     gjs                  0            3993         1344         28504        120      0       
+9580     Isolated Web Co      18           3556         313          28504        120      0       
+8737     Socket Process       2            66           24           28504        120      0       
+2027     Xwayland             1416         254844       41079        28504        120      0       
+53       kworker/R-kthro      0            2            0            28504        100      -20     
+574      NetworkManager       2            1286         1017         28504        120      0       
+10910    test_io              2940         2875         159          8567         120      0       
+951      upowerd              0            224          71           28504        120      0       
+1328     at-spi-bus-laun      0            90           13           28504        120      0       
+10821    sleep                0            1            0            504          120      0       
+1616     gsd-printer          0            13           52           28504        120      0       
+19       idle_inject/0        0            3            0            28504        49       0       
+9279     Isolated Web Co      1427         27340        15547        28504        120      0       
+74       kworker/u5:0         0            2            0            28504        100      -20     
+828      rtkit-daemon         0            198          76           28504        121      1       
+1205     gdm-wayland-ses      0            15           19           28504        120      0       
+1726     gjs                  0            24           79           28504        120      0       
+40       kworker/R-blkcg      0            2            0            28504        100      -20     
+6        kworker/R-slub_      0            2            0            28504        100      -20     
+10863    sleep                0            1            0            1154         120      0       
+61       kworker/u4:5         0            19954        6228         28504        120      0       
+10685    kworker/0:1H         2375         2807         32           28504        100      -20     
+27       kdevtmpfs            0            205          1            28504        120      0       
+1391     gvfs-goa-volume      0            81           26           28504        120      0       
+10884    sleep                0            1            1            1343         120      0       
+315      kworker/R-crypt      0            2            0            28504        100      -20     
+1823     xdg-desktop-por      2            436          257          28504        120      0       
+9952     sd_espeak-ng         0            21891        38           28504        120      0       
+137      scsi_eh_2            0            24           1            28504        120      0       
+1501     gsd-smartcard        0            58           25           28504        120      0       
+658      cupsd                0            146          87           28504        120      0       
+48       watchdogd            0            2            0            28504        49       0       
+9541     Isolated Web Co      23           3751         504          28504        120      0       
+10816    cpuUsage.sh          0            5            0            504          120      0       
+14       rcu_tasks_rude_      0            2            0            28504        120      0       
+10871    code                 0            0            5            0            120      0       
+1899     fwupd                0            477          191          28504        120      0       
+35       ksmd                 0            2            0            28504        125      5       
+2009     code                 0            33           11           28504        120      0       
+1166     gdm-session-wor      0            53           30           28504        120      0       
+8308     nautilus             1            6816         1730         28504        120      0       
+1543     evolution-alarm      1            166          102          28504        120      0       
+700      dbus                 0            2            7            28504        120      0       
+611      avahi-daemon         0            3            0            28504        120      0       
+10947    git                  0            0            1            0            120      0       
+1        systemd              1            3840         1292         28504        120      0       
+4559     code                 21           3611         1920         28504        120      0       
+2352     cpptools             24           2014         247          28504        120      0       
+1509     gsd-sound            0            49           26           28504        120      0       
+10248    kworker/1:1          212          3571         80           28504        120      0       
+56       kworker/R-scsi_      0            2            0            28504        100      -20     
+10824    sleep                0            1            0            4032         120      0       
+22       idle_inject/1        0            3            0            28504        49       0       
+166      jbd2/sda3-8          3633         27967        6517         28504        120      0       
+10879    sh                   0            1            1            1343         120      0       
+1297     gnome-session-b      0            324          185          28504        120      0       
+1674     xdg-desktop-por      2            575          196          28504        120      0       
+1208     xdg-permission-      0            41           11           28504        120      0       
+10934    sleep                0            1            0            503          120      0       
+653      ModemManager         0            159          95           28504        120      0       
+43       kworker/R-ata_s      0            2            0            28504        100      -20     
+1407     goa-identity-se      0            21           47           28504        120      0       
+1174     systemd              0            528          554          28504        120      0       
+10955    sh                   0            2            1            503          120      0       
+1373     evolution-sourc      0            113          89           28504        120      0       
+64       kworker/R-ipv6_      0            2            0            28504        100      -20     
+1339     dbus-daemon          0            379          207          28504        120      0       
+1106     colord               0            119          188          28504        120      0       
+1483     gsd-power            0            337          249          28504        120      0       
+30       khungtaskd           0            23           0            28504        120      0       
+318      kworker/u4:6         153          33883        9888         28504        120      0       
+606      systemd-logind       0            811          275          28504        120      0       
+10853    sleep                0            1            1            505          120      0       
+9633     Isolated Web Co      28           4001         749          28504        120      0       
+51       kswapd0              0            274          2213         28504        120      0       
+1182     pipewire-media-      20           1161         36           28504        120      0       
+10908    sleep                0            1            0            504          120      0       
+572      dbus-daemon          0            5230         2382         28504        120      0       
+9688     Isolated Web Co      19           3002         232          28504        120      0       
+2313     code                 13           1639         569          28504        120      0       
+17       rcu_preempt          1738         271084       331          28504        120      0       
+2368     bash                 0            82           37           28504        120      0       
+771      kerneloops           0            50           2            28504        120      0       
+72       kworker/R-kstrp      0            2            0            28504        100      -20     
+2190     code                 172          8854         4466         28504        120      0       
+10929    cpuUsage.sh          0            6            2            503          120      0       
+38       kworker/R-kinte      0            2            0            28504        100      -20     
+4596     code                 13           1260         313          28504        120      0       
+559      accounts-daemon      0            138          66           28504        120      0       
+703      dbus                 0            1            22           28504        120      0       
+1457     at-spi2-registr      0            174          46           28504        120      0       
+237      kworker/R-ttm        0            2            0            28504        100      -20     
+10950    sleep                0            1            3            1512         120      0       
+4        kworker/R-rcu_g      0            2            0            28504        100      -20     
+10861    run_experiment.      0            1            0            0            120      0       
+957      packagekitd          3            1068         1351         28504        120      0       
+9696     Isolated Web Co      21           3243         349          28504        120      0       
+3075     update-notifier      0            176          114          28504        120      0       
+1478     gsd-datetime         0            32           25           28504        120      0       
+8620     crashhelper          0            134          3            28504        120      0       
+9984     Isolated Web Co      14           2383         258          28504        120      0       
+8764     Privileged Cont      149          4605         3399         28504        120      0       
+1533     ibus-extension-      0            374          260          28504        120      0       
+690      gdm3                 0            128          53           28504        120      0       
+10848    cpuUsage.sh          0            5            1            505          120      0       
+46       kworker/R-edac-      0            2            0            28504        100      -20     
+10903    cpuUsage.sh          0            9            1            504          120      0       
+12       kworker/R-mm_pe      0            2            0            28504        100      -20     
+10259    kworker/u4:0         489          2138         487          28504        120      0       
+677      unattended-upgr      0            127          90           28504        120      0       
+9937     speech-dispatch      0            102          14115        28504        120      0       
+588      polkitd              0            2053         4045         28504        120      0       
+732      cups-browsed         0            343          47           28504        120      0       
+2096     code                 8            704          61           28504        120      0       
+1486     gsd-print-notif      0            66           34           28504        120      0       
+33       kworker/R-write      0            2            0            28504        100      -20     
+2007     code                 746          102519       41675        28504        120      0       
+609      wpa_supplicant       3            302          12           28504        120      0       
+753      kerneloops           0            50           2            28504        120      0       
+143      kworker/0:2H         0            11           0            28504        100      -20     
+1651     xdg-desktop-por      0            669          282          28504        120      0       
+54       kworker/R-acpi_      0            2            0            28504        100      -20     
+10911    sleep                0            1            0            1513         120      0       
+1473     ibus-daemon          0            2413         160          28504        120      0       
+20       cpuhp/0              0            14           0            28504        120      0       
+10411    cpptools-srv         29           602          5            28504        120      0       
+596      power-profiles-      0            66           36           28504        120      0       
+41       irq/9-acpi           0            2            1            28504        49       0       
+562      acpid                0            2764         37           28504        120      0       
+1549     gsd-disk-utilit      0            7            10           28504        120      0       
+10288    Web Content          3            167          104          28504        120      0       
+6861     gvfsd-http           0            36           8            28504        120      0       
+10809    systemd-udevd        0            114          26           3529         120      0       
+7        kworker/R-netns      0            2            0            28504        100      -20     
+1515     gsd-wacom            0            93           64           28504        120      0       
+10398    cpptools-srv         29           662          20           28504        120      0       
+1193     gnome-keyring-d      0            398          57           28504        120      0       
+206      systemd-journal      0            1876         758          28504        119      -1      
+1481     gsd-keyboard         0            71           25           28504        120      0       
+28       kworker/R-inet_      0            2            0            28504        100      -20     
+2057     ibus-x11             6            1061         110          28504        120      0       
+1447     gvfsd-trash          0            205          115          28504        120      0       
+604      snapd                0            183          110          28504        120      0       
+1413     gvfs-gphoto2-vo      0            72           24           28504        120      0       
+570      avahi-daemon         0            571          37           28504        120      0       
+1557     ibus-portal          0            387          25           28504        120      0       
+9830     Isolated Web Co      12           2427         141          28504        120      0       
+10961    sleep                0            1            0            503          120      0       
+15       rcu_tasks_trace      0            6            0            28504        120      0       
+1201     dbus-daemon          18           5168         2254         28504        120      0       
+1489     gsd-rfkill           0            56           33           28504        120      0       
+2010     code                 0            119          65           28504        120      0       
+2154     code                 161          11804        2908         28504        120      0       
+1222     gnome-session-b      0            57           59           28504        120      0       
+2        kthreadd             0            107          5            28504        120      0       
+1366     gnome-shell-cal      0            95           119          28504        120      0       
+57       scsi_eh_1            0            4            0            28504        120      0       
+2031     gsd-xsettings        6            1174         139          28504        120      0       
+434      systemd-resolve      31           4402         1521         28504        120      0       
+2175     code                 1020         60970        89485        28504        120      0       
+2230     code                 742          43725        13385        28504        120      0       
+23       migration/1          10           883          0            28504        0        0       
+167      kworker/R-ext4-      0            2            0            28504        100      -20     
+10880    cpuUsage.sh          0            4            2            1343         120      0       
+9948     sd_espeak-ng-mb      0            341          55           28504        120      0       
+44       kworker/R-md         0            2            0            28504        100      -20     
+1175     (sd-pam)             0            1            1            28504        120      0       
+10956    cpuUsage.sh          0            7            0            503          120      0       
+1374     dconf-service        0            97           57           28504        120      0       
+1751     snapd-desktop-i      0            140          55           28504        120      0       
+1285     gvfsd                0            188          68           28504        120      0       
+6220     snap                 0            19           11           28504        120      0       
+696      dbus                 0            5            20           28504        120      0       
+607      udisksd              0            324          166          28504        120      0       
+9956     sd_dummy             0            15           5            28504        120      0       
+1272     gnome-session-c      0            1            5            28504        120      0       
+8414     kworker/0:0          0            3356         63           28504        120      0       
+52       ecryptfs-kthrea      0            2            0            28504        120      0       
+1183     pulseaudio           41           1187         753          28504        109      -11     
+1471     gsd-a11y-settin      0            29           20           28504        120      0       
+8613     firefox              2447         42969        75277        28504        120      0       
+18       migration/0          10           957          0            28504        0        0       
+10354    Web Content          148          2013         557          28504        120      0       
+1293     gvfsd-fuse           0            3            6            28504        120      0       
+39       kworker/R-kbloc      0            2            0            28504        100      -20     
+10896    sleep                0            1            0            1513         120      0       
+1458     gjs                  0            568          581          28504        120      0       
+5        kworker/R-rcu_p      0            2            0            28504        100      -20     
+10862    test_cpu             0            2            1            9346         120      0       
+10773    run_experiment.      13           26           13           28504        120      0       
+9786     Isolated Web Co      12           2407         259          28504        120      0       
+1424     gvfs-afc-volume      0            77           27           28504        120      0       
+437      systemd-timesyn      0            137          68           28504        120      0       
+581      irqbalance           2            273          35           28504        120      0       
+1479     gsd-housekeepin      1            89           38           28504        120      0       
+9608     Isolated Web Co      16           2631         212          28504        120      0       
+9807     Isolated Web Co      10           2353         218          28504        120      0       
+9951     kworker/1:0H         662          2765         219          28504        100      -20     
+602      rsyslogd             0            33           14           28504        120      0       
+8731     forkserver           0            130          99           28504        120      0       
+8875     WebExtensions        34           1504         1356         28504        120      0       
+1500     gsd-sharing          0            110          45           28504        120      0       
+47       kworker/R-devfr      0            2            0            28504        100      -20     
+10815    sh                   0            2            0            504          120      0       
+13       rcu_tasks_kthre      0            2            0            28504        120      0       
+10870    git                  0            1            3            0            120      0       
+1432     gvfs-mtp-volume      0            65           4            28504        120      0       
+34       kcompactd0           54           5277         200          28504        120      0       
+8773     RDD Process          2            393          66           28504        120      0       
+699      dbus                 0            2            16           28504        120      0       
+
+NOTE: Priority values (Linux kernel):
+  0-99: Real-time priorities (higher value = higher priority)
+  100-139: Normal priorities (lower value = higher priority)
+  Nice values: -20 (highest) to +19 (lowest priority)

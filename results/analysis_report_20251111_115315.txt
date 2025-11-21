@@ -1,0 +1,28 @@
+=== SCHEDULER MONITORING EXPERIMENT REPORT ===
+Generated: Tue 11 Nov 2025 12:02:37 PM IST
+Results from: 20251111_115315
+
+=== SUMMARY ===
+
+Workload Type          | Context Switches | CS Rate (/sec)
+---------------------------------------------------------
+Baseline (Idle)       | 1546             | 257
+CPU-Bound             | 7923             | 440
+I/O-Bound             | 28938            | 997
+Mixed Workload        | 33525            | 817
+Concurrent (3 proc)   | 40004            | 754
+
+=== OBSERVATIONS ===
+
+1. CPU-bound workloads generate fewer context switches
+   because they continuously use their time slices.
+
+2. I/O-bound workloads generate more context switches
+   due to frequent blocking on I/O operations.
+
+3. The CFS scheduler maintains fairness while optimizing
+   for different workload characteristics.
+
+4. Multiple concurrent processes increase overall
+   context switch frequency due to time-sharing.
+
